@@ -1,4 +1,4 @@
-@startuml
+    @Startuml
 
 class Tron
 class Juego
@@ -16,11 +16,11 @@ Moto o-- Arena
 Tron o-- Moto
 Oponente o-- Moto
 
-
-
-
 Jugador o-- Tron
 IA o-- Oponente
+
+
+
 Moto *-- Estela
 Arena *-- Muro
 Arena *-- Jet
